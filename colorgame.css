@@ -1,0 +1,138 @@
+ body {
+    background-color: #232323;
+}
+
+ .square {
+    background: purple;
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 12px;
+    border: 2px;
+    transition: background-color 0.7s;
+}
+
+  #messageDisplay {
+     background-color: black;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 30px;
+     display: inline-block;
+     width: 20%;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
+
+
+ #container{
+    margin: 20px auto;
+    max-width: 600px;
+
+}
+
+ #colorDisplay{
+     text-align: center;
+     color: white;
+     font-size: 200%;
+}
+
+ h1{
+    text-align: center;
+    color: white;
+    height: 100%;
+    background-color: steelblue;
+    margin: 0;
+    font-family: "Montserrat","Avenir";
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+
+}
+
+span{
+
+
+    clear: both;
+    height: 30px;
+}
+
+  .alert{
+    color: blue;
+}
+
+ #easy{
+     font-size: 1.2em;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: solid;
+
+}
+ #hard{
+     font-size: 1.2em;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: solid;
+
+}
+
+ .center{
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    vertical-align: center;
+    line-height: 100%;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50% -50%);
+  }
+
+   #stripe{
+      background: white;
+      height: 50px;
+      text-align: center;
+
+    }
+
+
+
+
+ #reset{
+     color: Green;
+     font-size: 1.2em;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: solid;
+      }
+
+ .selected{
+     background-color:#232323;
+    color: green;
+
+    color: white;
+    background: steelblue;
+
+ }
+
+ button{
+     border: none;
+     background: none;
+    text-transform: uppercase;
+    font-family: "Montserrat","Avenir";
+    font-weight: 700;
+    color: steelblue;
+    height: 100%;
+    letter-spacing: inherit;
+    transition: all 1.0s;
+ }
+
+ button:hover{
+     color: white;
+    background: #4682b4;
+
+ }
